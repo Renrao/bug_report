@@ -32,4 +32,4 @@ Connection: close
 
 SQL injection result is as follows，line 6 database name is displayed.
 
-![image-20220624163833913](D:\学习\研究生\漏洞挖掘\CVE\bug_report\blob\main\vendors\itsourcecode.com\advanced-school-management-system\sql_injection.assets\image-20220624163833913.png)
+![image-20220624163833913](https://github.com/Renrao/bug_report/blob/master/blob/main/vendors/itsourcecode.com/advanced-school-management-system/sql_injection.assets/image-20220624163833913.png)
