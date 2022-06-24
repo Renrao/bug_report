@@ -34,4 +34,4 @@ Connection: close
 
 **SQL injection result**：line 6 database name is displayed.
 
-![image-20220624163833913](https://github.com/Renrao/bug_report/blob/master/blob/main/vendors/itsourcecode.com/advanced-school-management-system/sql_injection.assets/image-20220624163833913.png)
+![sql_injection](https://github.com/Renrao/bug_report/blob/master/blob/main/vendors/itsourcecode.com/advanced-school-management-system/images/sql_injection.png)
